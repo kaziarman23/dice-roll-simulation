@@ -1,0 +1,49 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html{
+    font-size: 22px;
+}
+
+
+.conteiner{
+    width: 420px;
+    height: 375px;
+    text-align: center;
+    margin: 0 auto;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1{
+    margin-top: 2rem;
+    font-weight: bolder;
+}
+
+.dice{
+    width: 50%;
+    font-size: 4rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.button{
+    padding: 10px;
+    border: none;
+    border-radius: 1rem;
+    color: white;
+    background-color: brown;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.button:hover{
+    background-color: #c04e4e;
+}
